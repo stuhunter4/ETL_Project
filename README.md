@@ -8,5 +8,7 @@
 <p><strong>table_schemata.sql: </strong>PostgreSQL was used to creat tables before importing the CSV data files.</p>
 <p><strong>queries.sql: </strong>Using PostgreSQL, queried data from our pgAdmin database for analysis.</p>
 <p><strong>ETL_queries.ipynb: </strong>Using SQLAlchemy, data was queried from different tables in our database to create the sample analysis visualizations for our project.</p>
+![pollingTrump](images/Polling_Trump_hbar.png)
 <p><strong>Polling_Trump_hbar.png: </strong>The first query looks for the average poll numbers for Trump, by common pollsters in the two sets of data, visualized here with matplotlib.</p>
+![pollingDem](images/Polling_States_Dem.png)
 <p><strong>Polling_States_Dem.png: </strong>The second query looks for the average polls for Clinton in 2016 versus the same for Biden in 2020, filtered by common pollsters in the two sets of data, and among certain states selected for interest.  Visualized with Plotly in Python.
